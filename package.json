@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mateusspp/apiTeste/issues"
   },
-  "homepage": "https://github.com/mateusspp/apiTeste#readme"
+  "homepage": "https://github.com/mateusspp/apiTeste#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
