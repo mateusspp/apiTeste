@@ -1,6 +1,6 @@
-const express = require ('express');
+const customExpress = require ('./config/customExpress');
 
-const app = express (); //comando que informa o aplicativo que sera informado no servidor quando ele começar a rodar, executando o servidor
+const app = customExpress (); //comando que informa o aplicativo que sera informado no servidor quando ele começar a rodar, executando o servidor
 
 app.listen(3000,() => console.log('Servidor rodando na porta 3000')); // O comando listen informa que o app esperamos algo na porta 3000 do nosso servidor e o console informa que o app está esperando
 
