@@ -5,7 +5,6 @@ module.exports = app => {
     // Uso o post p/ enviar dados ao nosso servidor, digamos que o cliente precisa preencher um formulário, consequetemente ele precisa enviar dados x, então...
     app.post('/atendimentos', (req, res) => {
         const atendimento = req.body
-        Atendimento.adiciona(atendimento)
-        res.send('Post atendimento')
+        Atendimento.adiciona(atendimento, res)
     });
 }
